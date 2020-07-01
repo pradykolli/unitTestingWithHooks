@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { CafeContext } from '../Cafe/Cafe'
+import CafeContext from '../Cafe/CafeContext'
 
 function Cakes() {
     const context = useContext(CafeContext)
