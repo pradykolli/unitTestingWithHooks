@@ -7,7 +7,7 @@ import mockContext,{mockStateDispatch} from '../testHelpers/testHelper'
 import { cafeReducer } from '../Cafe/CafeReducer';
 Enzyme.configure({ adapter: new Adapter() })
 describe("App component renders", () => {
-  it(`renders Coffees in app component`, () => {
+  it(`renders Cakes in app component`, () => {
       const wrapper = shallow(<Cakes />);
     expect(wrapper.find('h1').text()).toEqual("Muffins");
   });

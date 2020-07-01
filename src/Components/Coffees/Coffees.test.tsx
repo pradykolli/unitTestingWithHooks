@@ -5,8 +5,6 @@ import Adapter from 'enzyme-adapter-react-16'
 import Coffees from './Coffees';
 import * as CafeContext from '../Cafe/CafeContext'
 import mockContext,{mockStateDispatch} from '../testHelpers/testHelper'
-import { wrap } from 'module';
-import { cafeReducer } from '../Cafe/CafeReducer';
 Enzyme.configure({ adapter: new Adapter() })
 describe("App component renders", () => {
   it(`renders Coffees in app component`, () => {
