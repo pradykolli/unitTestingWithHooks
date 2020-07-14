@@ -5,6 +5,7 @@ import Cakes from './Cakes'
 import * as CafeContext from '../Cafe/CafeContext'
 import mockContext,{mockStateDispatch} from '../testHelpers/testHelper'
 import { cafeReducer } from '../Cafe/CafeReducer';
+import { wait } from '@testing-library/react';
 Enzyme.configure({ adapter: new Adapter() })
 describe("App component renders", () => {
   it(`renders Cakes in app component`, () => {
